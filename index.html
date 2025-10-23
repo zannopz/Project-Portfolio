@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>my profile</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body onload="loader()">
+    <div id="Loading"></div>
+     <!-----MULAI HEADER----->
+     <div id="hearder"  data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+        <div class="contenier">
+            <nav >
+                 <img src="img/Logo.png" alt="logo" class="logo" data-aos="zoom-in"> <!--Logo Beranda-->
+                 <ul id="sidmenu" data-aos="zoom-in">
+                    <!--MEMANGGIL DATA MENU-->
+                    <li><a href="#hearder" >Home</a></li>
+                    <li><a href="index1.html" >Tentang</a></li>
+                    <li><a href="index4.html">Layanan</a></li>
+                    <li><a href="index2.html" >Project</a></li>
+                    <li><a href="index3.html">Sertifikat</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <!--AKHIR-->
+                    
+                    <!--AGAR SEMUA BUTTON BISA DI KLIK-->
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </nav> 
+                    <div class="hearder-text"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <!--AKHIR-->
+
+                <!--NAMA WEBSITE-->    
+                <p>Front-end developer</p>
+                <h5>Portfolio</h5>
+                <h1>I am <span>ZannOpz</span> <br> Asal Indonesia</h1>
+              </div>       
+            </div>
+        </div>
+     </div>
+      <!-----AKHIR HEADER----->
+       
+         
+<!---ICON SOSMED--->
+<div id="contact">
+  <div class="contenier">
+  <div class="row">
+  <div class="contact-left"  data-aos="fade-up-right">
+  <h1 class="sub-title">Daftar Diri</h1>
+  <p><i class="fa-solid fa-paper-plane"></i>ZannOpz@gmail.com</p>
+  <p><i class="fa-solid fa-square-phone-flip"></i>0858816282**</p>
+  <div class="social-icons" data-aos="zoom-in">
+ <a target="_blank" class="instagram" rel="noopener noreferrer"  title="Buka Instagram Zannopz" href="https://www.instagram.com/zann_opz/">
+ <i class="fa-brands fa-square-instagram"></i></a>
+ <a target="_blank" class="tiktok" rel="noopener noreferrer" title="Buka Tiktok Zannopz" href="https://www.tiktok.com/@zannopz">
+ <i class="fa-brands fa-tiktok"></i></a>
+ <a target="_blank" class="github" rel="noopener noreferrer" title="Buka GitHub Zannopz" href="https://github.com/zannopz?tab=repositories">
+ <i class="fa-brands fa-github"></i></a>
+ <a target="_blank" class="linkedin" rel="noopener noreferrer" title="Buka Linkedin Zannopz" href="https://www.linkedin.com/in/fauzan-prasetya-a14198314/">
+ <i class="fa-brands fa-linkedin"></i></a>
+</div>
+<!--AKHIR-->
+
+ <!--BUTTON MUSIC dan VIDEO-->
+ <a href="img/MP4.mp4" class="btn btn2">Putar Video</a>
+ <a href="img/Lagu.mp3" class="btn btn2">Putar Musik</a>
+ <!--AKHIR-->
+  
+  <!--BUTTON isi dari NAMA_NPM_EMAIL_ALAMAT_PILIH JURUSAN_PILIH FILE_PESAN_TGL LAHIR_HOBI-->
+  </div>
+  <div class="contact-right" data-aos="fade-up-left">
+  <form >
+  <input type="text" name="Name" placeholder="Nama" required>
+  <input type="text" name="NPM" placeholder="NPM" required>
+  <input type="Email" name="Email" placeholder="Gmail" required>
+
+  <tr>
+  <td><textarea name="alamat" rows="2" placeholder="Masukkan alamat lengkap"></textarea></td>
+  </tr>
+                            
+  <tr>
+  <select name="prodi" title="Pilih Jurusan">
+  <option>-- Pilih Jurusan --</option>
+  <option>Teknik Informatika</option>
+  <option>Teknik Industri</option>
+  <option>Sistem Informasi</option>
+  <option>Teknik Komputer</option>
+  </select>
+
+  <tr>
+  <td><label for="foto">Foto:</label></td>
+  <td><input type="file" name="foto" id="foto"></td>
+  </tr>
+
+  <tr>
+  <td><label for="massage">Pesan:</label></td>
+  <td><textarea name="massage" id="massage" rows="6" placeholder="Pesan"></textarea></td>
+  </tr>
+
+  <tr>
+  <td><label for="tgl_lahir">Tanggal Lahir:</label></td>
+  <td><input type="date" name="tgl_lahir" id="tgl_lahir"></td>
+  </tr>
+
+  <tr>
+  <td><strong>🎯 Hobi</strong></td>
+  <td>:</td>
+  <fieldset>
+  <td>
+  <table border="0" cellspacing="10">
+    <tr>
+    <td><label><input type="checkbox" name="hobi" value="Ngoding"> 💻 Ngoding</label></td>
+    <td><label><input type="checkbox" name="hobi" value="Desain"> 🎨 Desain</label></td>
+    <td><label><input type="checkbox" name="hobi" value="Game"> 🎮 Game</label></td>
+    <td><label><input type="checkbox" name="hobi" value="Musik"> 🎵 Musik</label></td>
+    </tr>
+    </table>
+  </fieldset>
+  </td>
+  </tr>
+
+  <!--BUTTON KIRIM SAAT SUDAH ISI DATA-->
+  <a href="index5.html"> <!--MANGGIL DATA TERKIRIM-->
+  <button class="btn btn2" type="button">📩Kirim</button>
+  </a>
+  </li>
+  </form>
+  </div>
+  </div>
+  </div>
+  <!--AKHIR DARI SEMUA BUTTON-->
+
+  <!--BAGIAN TEKS BERJALANNYA DISINI-->
+  <marquee>
+  <font size="3">
+  <b>Portfolio By Me</b> <h0 style="color: #fff;"> 🍻•JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER•🍻
+  <b>Portfolio By Me</b> <h0 style="color: #fff;"> 🍻•JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER | JASA WEBSITE | DESIGNER•🍻
+  </font>
+  </marquee>
+  <!--AKHIR-->
+
+  <!--BAGIAN COPYRIGHT GUA-->
+  <div class="copyright">
+  <p>Copyright@ ZannOpz .<i class="fa-solid fa-heart"></i> website developed by ZannOpz</p>
+  </div>
+  </div>
+  <!--AKHIR-->
+   
+  <!----KONTAK section AKHIR ----->
+  <script>
+  var preloader = document.getElementById("Loading");
+  function loader(){
+  preloader.style.display = 'none';}
+  </script>
+  <!--AKHIR-->
+  
+  <!--MEMANGGIL SMUA CODE HTML DATA-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  duration: 900,});
+  </script>
+  <script>
+  var sidmenu = document.getElementById("sidmenu");
+  function openmenu(){
+  sidmenu.style.right ="0";}
+  function closemenu(){
+  sidmenu.style.right ="-200px";}
+  </script>
+
+<!--MUSIK DIBELAKANG LAYAR JADI SAAT SAYA KLIK BERANDA NYA DIA LANGSUNG ADA MUSIC NYA-->
+</body>
+</html>
+<body bgcolor="Black" text="white"   onclick="document.getElementById('lagu').play();fs()" id="body" onload="typeWriter()">
+<audio src="img/Lagu.mp3" Autoplay="true" id="lagu"></audio>
+</body>
+<!--AKHIR-->

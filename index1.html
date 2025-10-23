@@ -1,0 +1,74 @@
+<!--SEMUA SCRIPT INI UNTUK BAGIAN FRAME TENTANG SAYA-->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/all.css">
+<!-----start Tentang section----->
+<div id="about"data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
+<div class="contenier">
+<div class="row">
+<div class="about-col-1">
+    <img src="img/dp.jpg" alt="" data-aos="zoom-in" >  
+</div>
+    <div class="about-col-2" data-aos="zoom-in">
+    <h1 class="sub-title">Tentang Saya</h1>
+    <p>Seorang mahasiswa yang memiliki bakat dalam membuat website atau bisa</p>
+    <p>disebut Web Developer di bidang ilmu dan teknik komputer.Pengembang masa</p><p>depan,itulah saya.Saya melakukan pengembangan web. Beberapa proyek yang</p>
+    <p>saya kerjakan juga membantu saya mengasah kemampuan coding saya.Saya</p><p>sekarang mengasah keterampilan saya untuk mempersiapkan ambisi saya</p>
+    <p>menjadi seorang programmer yang mahir.</p>
+    <div class="tab-titles" data-aos="fade-left">
+    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills" data-aos="zoom-in">
+    <ul>
+    <li><span>HTML</span><br>HTML (HyperText Markup Language) adalah bahasa standar yang digunakan
+        <p>untuk membuat dan menyusun halaman web.</li></p>
+    <li><span>CSS</span><br>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain
+        <p>dan mempercantik tampilan halaman web yang dibuat menggunakan HTML</li></p>
+    <li><span>JS</span><br>JavaScript (sering disingkat sebagai JS) adalah bahasa pemrograman yang
+        <p>digunakan untuk membuat halaman web menjadi interaktif dan dinamis</li></p>
+    <li><span>THREE.JS</span><br>Three.js adalah pustaka JavaScript berbasis WebGL yang digunakan untuk
+        <p>membuat grafik 3D di dalam browser web.</li></p>
+    <li><span>TAILWIND.CSS</span><br>Tailwind CSS adalah framework CSS yang berbasis utility-first (berbasis utilitas)
+        <p>yang dirancang untuk mempermudah pengembangan antarmuka pengguna<p>dengan cepat dan efisien.</li></p>
+    </ul>
+</div>
+<div class="tab-contents" id="experience" >
+    <ul>
+    <li><span>25 - Januari - 2024</span><br>Pernah mengikuti program Bootcamp Hacktiv8 </li>
+    <li><span>30 - Mei - 2024</span><br>Pernah mengikuti program WIMI-SEC ACT</li>
+    <li><span>35 - Mei - 2024</span><br>Aktif dalam mengumpulkan Sertifikat Resmi</li>
+    <li><span>35 - Mei - 2023</span><br>Aktif dalam mendalami bahasa Pemograman</li>
+    <li><span>20 - Maret -2023</span><br>Aktif membuat beberapa Project yaitu Portfolio dll</li>
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+    <li><span>Pembelajaran Mandiri:</span><br>Belajar Bahasa Pemrograman</li>
+    <li><span>Pembelajaran Mandiri:</span><br>Praktik dalam membuat Projek</li>
+    <li><span>Pembelajaran Mandiri:</span><br>Kontribusi ke Projek Open Source seperti Github</li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--AKHIR-->
+
+<a href="index.html" class="back-btn">← Kembali ke Beranda</a> <!--BUTTON KEMBALI KE BERANDA AWAL-->
+
+<!--untuk menganimasikan perpindahan teks pada frame TENTANG 
+bgian exprience dan education-->
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+for(tablink of tablinks){
+tablink.classList.remove("active-link");}
+for(tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");}
+</script>
+<!-----Akhir Tentang----->

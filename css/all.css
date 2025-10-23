@@ -1,0 +1,67 @@
+/**ICON INSTAGRAM**/
+.fa-square-instagram:before {
+  content: "\e055"; }
+
+.fa-instagram-square:before {
+  content: "\e055"; }
+/*AKHIR**/
+          /**ICON TIKTOK**/
+         .fa-tiktok:before {
+          content: "\e07b"; }
+         /**AKHIR**/
+/**ICON GITHUB*/
+.fa-github:before {
+  content: "\f09b"; }
+.fa-github-alt:before {
+  content: "\f113"; }
+/**AKHIR**/
+         /**ICON LINKEDLIN**/
+        .fa-linkedin:before {
+         content: "\f08c"; }
+        .fa-linkedin-in:before {
+         content: "\f0e1"; }
+        /**AKHIR**/
+/**ICON PESAWAT KERTAS**/
+.fa-paper-plane::before {
+  content: "\f1d8"; }
+/**AKHIR**/
+        /**ICON HANDPHONE**/
+       .fa-square-phone-flip::before {
+        content: "\f87b"; }
+        /**AKHIR**/
+
+
+/**ICON PANAH DI PROJECT**/
+.fa-up-right-from-square::before {
+  content: "\f35d"; }
+/**AKHIR**/
+/**SELURUH ICON DARI INSTAGRAM SAMPE LINKEDIN**/
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.ttf") format("truetype"); }
+.fab,
+.fa-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400; }
+/**AKHIR**/
+
+/**UNTUK ICON PESAWAT KERTAS ,ICON TELPON DAN ICON PANAH DI PROJECT**/
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.ttf") format("truetype"); }
+.fas,
+.fa-solid {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900; }
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-display: block;
+  font-weight: 400;
+  src: url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.ttf") format("truetype"); }
+/**AKHIR**/
